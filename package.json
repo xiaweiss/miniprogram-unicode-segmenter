@@ -1,14 +1,15 @@
 {
   "name": "miniprogram-unicode-segmenter",
   "description": "unicode-segmenter for miniprogram",
-  "version": "0.0.4",
+  "version": "0.0.5",
+  "type": "module",
   "miniprogram": "dist",
   "files": [
     "dist",
-    "index.d.ts"
+    "types"
   ],
-  "type": "module",
-  "types": "index.d.ts",
+  "main": "dist/index.js",
+  "types": "types/index.d.ts",
   "license": "MIT",
   "homepage": "https://github.com/xiaweiss/miniprogram-unicode-segmenter",
   "keywords": [
@@ -24,10 +25,11 @@
   ],
   "scripts": {
     "changelog": "conventional-changelog -i CHANGELOG.md -s",
-    "build": "vite build && tsc -p tsconfig.build.json"
+    "build": "vite build"
   },
   "devDependencies": {
     "conventional-changelog-cli": "^5.0.0",
+    "rollup-plugin-copy": "^3.5.0",
     "typescript": "^5.8.2",
     "unicode-segmenter": "^0.12.0",
     "vite": "^6.2.2"

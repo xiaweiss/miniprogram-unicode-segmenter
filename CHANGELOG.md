@@ -1,3 +1,7 @@
+## <small>0.0.5 (2025-03-24)</small>
+
+* chore: 类型文件改为从 unicode-segmenter 拷贝 ([793c39c](https://github.com/xiaweiss/miniprogram-unicode-segmenter/commit/793c39c))
+
 ## <small>0.0.4 (2025-03-21)</small>
 
 * chore: unicode-segmenter 改为开发依赖，build 环节生成 index.d.ts ([dd4ad2f](https://github.com/xiaweiss/miniprogram-unicode-segmenter/commit/dd4ad2f))
