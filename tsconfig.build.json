@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "module": "NodeNext",
+    "moduleResolution": "NodeNext",
+    "rootDir": "dist",
+    "outDir": ".",
+    "allowJs": true,
+    "noImplicitAny": true,
+    "declaration": true,
+    "emitDeclarationOnly": true
+  },
+  "include": [
+    "./dist/**/*"
+  ],
+  "exclude": [
+    "!./dist"
+  ]
+}
