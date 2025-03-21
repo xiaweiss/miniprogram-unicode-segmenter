@@ -1,7 +1,8 @@
 {
   "name": "miniprogram-unicode-segmenter",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "miniprogram": "dist",
+  "files": ["dist"],
   "type": "module",
   "description": "unicode-segmenter for miniprogram",
   "license": "MIT",
